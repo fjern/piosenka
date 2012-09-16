@@ -3,7 +3,7 @@
 {% block hull %}
 
 
-<div class="frontThird">
+<!-- <div class="frontThird">
 {% include "frontpage/new_posts_widget.html" %}
 
 {% include "frontpage/new_songs_widget.html" %}
@@ -22,6 +22,31 @@
 <div class="fb-like-box" data-href="http://www.facebook.com/piosenkaztekstem" data-width="298" data-show-faces="true" data-stream="false" data-header="false"></div>
     <p align="right" style="padding: 0;"><a href="/o-stronie/">O stronie</a></p>
 </div>
+</div> -->
+
+<div class="hero-unit">
+  <h2>Piosenka z tekstem</h1>
+  <p>Ten fragment Internetu jest poświęcony piosence literackiej. <br />Cytując Poetę - interesują nas piosenki, których 
+    <i>wymiar między konkretem a przestrzenią jest po prostu niepojęty</i>.
+  </p>
+
 </div>
+
+<div class="row">
+  <div class="span4">
+    {% include "frontpage/new_posts_widget.html" %}
+  </div>
+  <div class="span4">
+    <h2>Heading</h2>
+    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+    <p><a class="btn" href="#">View details &raquo;</a></p>
+ </div>
+  <div class="span4">
+    <h2>Heading</h2>
+    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+    <p><a class="btn" href="#">View details &raquo;</a></p>
+  </div>
+</div>
+
 	    
 {% endblock hull %}
